@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 tensorflow-cpu==2.16.0
+=======
+tensorflow-cpu==2.8.0
+>>>>>>> f642fe5fff679c55ee13875ccd780328c396a292
 numpy==1.26.4
 pillow==11.1.0
 streamlit==1.43.2
