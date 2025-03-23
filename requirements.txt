@@ -4,5 +4,3 @@ pillow
 streamlit
 openai
 python-dotenv
-
-What is the approximate Carbon emission or carbon footprint generated from "+label+"? I just need an approximate number to create awareness. Elaborate in 100 words.\n"
