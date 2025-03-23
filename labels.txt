@@ -1,0 +1,12 @@
+0 battery
+1 brown-glass
+2 cardboard
+3 clothes
+4 green-glass
+5 metal
+6 organic
+7 paper
+8 plastic
+9 shoes
+10 trash
+11 white-glass
