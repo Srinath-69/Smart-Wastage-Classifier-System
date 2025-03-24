@@ -166,7 +166,7 @@ if input_img is not None:
             if label == "0 battery\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as BATTERY</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as BATTERY, Which comes under "HAZARDOUS WASTE OR E-WASTE"</p>
             </div>
             """, unsafe_allow_html=True)                
                 with col4:
@@ -180,7 +180,7 @@ if input_img is not None:
             elif label == "1 brown-glass\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as BROWN-GLASS</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as BROWN-GLASS, Which comes under "GLASS-RECYCLING"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
@@ -194,7 +194,7 @@ if input_img is not None:
             elif label == "2 cardboard\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as CARDBOARD</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as CARDBOARD, Which comes under "CORRUGATED-CARDBOARD"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
@@ -206,7 +206,7 @@ if input_img is not None:
             elif label == "3 clothes\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as CLOTHES</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as CLOTHES, Which comes under "TEXTILE OR FABRIC RECYCLING"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
@@ -218,7 +218,7 @@ if input_img is not None:
             elif label == "4 green-glass\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as GREEN-GLASS</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as GREEN-GLASS, Which comes under "GLASS-RECYCLING"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
@@ -232,7 +232,7 @@ if input_img is not None:
             elif label == "5 metal\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as METAL</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as METAL, Which comes under "METAL-RECYCLING"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
@@ -246,7 +246,7 @@ if input_img is not None:
             elif label == "6 organic\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as ORGANIC</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as ORGANIC, Which comes under "COMPOSTABLE-WASTE OR ORGANIC RECYCLING"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
@@ -260,7 +260,7 @@ if input_img is not None:
             elif label == "7 paper\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as PAPER</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as PAPER, Which comes under "PAPER-RECYCLING"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
@@ -272,7 +272,7 @@ if input_img is not None:
             elif label == "8 plastic\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as PLASTIC</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as PLASTIC, Which comes under "PLASTIC-RECYCLING"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
@@ -286,7 +286,7 @@ if input_img is not None:
             elif label == "9 Shoes\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as SHOES</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as SHOES, Which comes under "TEXTILE OR FOOTWEAR RECYCLING"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
@@ -298,7 +298,7 @@ if input_img is not None:
             elif label == "10 Trash\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as TRASH</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as TRASH, Which comes under "NON-RECYCLABLE OR GENERAL WASTE"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
@@ -310,7 +310,7 @@ if input_img is not None:
             elif label == "11 White-glassl\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
-                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as WHITE-GLASS</p>
+                <p style="text-align: center; color: black; font-weight: bold;">The image is classified as WHITE-GLASS, Which comes under "GLASS-RECYCLING"</p>
             </div>
             """, unsafe_allow_html=True)
                 with col4:
