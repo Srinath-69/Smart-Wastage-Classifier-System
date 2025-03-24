@@ -1,6 +1,9 @@
-tensorflow-cpu==2.6.0
+tensorflow-cpu==2.8.0
 numpy==1.26.4
 pillow==11.1.0
 streamlit==1.43.2
 python-dotenv==1.0.1
 google.generativeai==0.8.4
+
+mkdocs==1.6
+mkdocs-material==9.5.41
