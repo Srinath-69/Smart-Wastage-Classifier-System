@@ -280,7 +280,7 @@ if input_img is not None:
                     st.image("sdg goals/12.gif", use_container_width=True)
                     st.image("sdg goals/13.gif", use_container_width=True)
                     st.image("sdg goals/14.gif", use_container_width=True)
-            elif label == "9 Shoes\n":
+            elif label == "9 shoes\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
                 <p style="text-align: center; color: black; font-weight: bold;">The image is classified as SHOES, Which comes under "TEXTILE OR FOOTWEAR RECYCLING"</p>
@@ -292,7 +292,7 @@ if input_img is not None:
                 with col5:
                     st.image("sdg goals/13.gif", use_container_width=True)
                     st.image("sdg goals/15.gif", use_container_width=True)
-            elif label == "10 Trash\n":
+            elif label == "10 trash\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
                 <p style="text-align: center; color: black; font-weight: bold;">The image is classified as TRASH, Which comes under "NON-RECYCLABLE OR GENERAL WASTE"</p>
@@ -304,7 +304,7 @@ if input_img is not None:
                 with col5:
                     st.image("sdg goals/11.gif", use_container_width=True)
                     st.image("sdg goals/12.gif", use_container_width=True)
-            elif label == "11 White-glassl\n":
+            elif label == "11 white-glassl\n":
                 st.markdown("""
             <div style="background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 70px;">
                 <p style="text-align: center; color: black; font-weight: bold;">The image is classified as WHITE-GLASS, Which comes under "GLASS-RECYCLING"</p>
