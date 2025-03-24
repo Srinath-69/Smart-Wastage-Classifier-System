@@ -4,11 +4,8 @@ import numpy as np
 import streamlit as st 
 from dotenv import load_dotenv 
 import os
-import openai
 import google.generativeai as genai
 import base64
-import json
-import os
 
 # Set page configuration (must be the first Streamlit command)
 st.set_page_config(layout='wide')
