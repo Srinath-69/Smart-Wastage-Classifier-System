@@ -1,6 +1,7 @@
 site_name: Smart Wastage Classifier System
-theme: Material theme
+theme:
   name: material
+
 nav:
   - Home: index.md
   - About: about.md
