@@ -1,6 +1,11 @@
 [build]
   command = "mkdocs build"
   publish = "site/"
+  functions = "netlify/functions"  # Adding the functions directory here
 
 [build.environment]
   PYTHON_VERSION = "3.10"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
